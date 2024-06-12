@@ -26,7 +26,7 @@ const markersData = [
     { latLng: [25, 45], info: 'Middle East and North Africa', size: 450000, id: 'marker-5' }
 ];
 
-const elements = []; // To store markers, labels, and lines for fading
+const elements = [];
 
 function handleMarkerInteraction(marker, labelMarker, line) {
     marker.on('mouseover', () => {
